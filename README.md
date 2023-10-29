@@ -6,7 +6,7 @@
 https://template.getyoursite.info/
 ```
 
-### Коротко, что сделано по ТЗ
+### Что сделано по ТЗ
 
 1. Таблица Users с владельцами участков (колонки Plot ID, First name, Last Name, Phone, Email, Last login).
 Пагинация по 20 записей на страницу (аналогично таблице Plots).
