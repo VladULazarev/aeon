@@ -1,0 +1,15 @@
+<div class="modal_head">
+    <i class="icon_close" onclick="common.modal_hide()"></i>
+</div>
+<div class="modal_body">
+    <h3 class="title-center">Are you sure? This action can't be undone!</h3>
+    <div class="modal_controls">
+        <div>
+            <div class="btn_modal" onclick="common.user_delete(<?php echo self::$_tpl_vars['user']['id']; ?>
+);">Delete User</div>
+        </div>
+        <div>
+            <div class="btn_modal light" onclick="common.modal_hide();">Cancel</div>
+        </div>
+    </div>
+</div>
